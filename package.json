@@ -1,0 +1,25 @@
+{
+  "name": "insanity-word-list",
+  "version": "1.0.0",
+  "description": "A large collection of interesting words in English.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alamantus/insanity-word-list.git"
+  },
+  "keywords": [
+    "words",
+    "word",
+    "list",
+    "nouns",
+    "adjectives",
+    "verbs",
+    "phrases"
+  ],
+  "author": "Robbie Antenesse <dev@alamantus.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alamantus/insanity-word-list/issues"
+  },
+  "homepage": "https://github.com/Alamantus/insanity-word-list#readme"
+}
