@@ -1,6 +1,6 @@
 # Insanity Word List
 
-This package is a collection of English words used in the [Game Idea Generator](https://alamantus.gitlab.io/GameIdeaGenerator) that was originally used for the [Insanity Jam](https://web.archive.org/web/20160313223341/http://www.insanityjam.com/about/) game jam.
+This package is a standalone collection of English words used in the [Game Idea Generator](https://alamantus.gitlab.io/GameIdeaGenerator) that was originally used for the [Insanity Jam](https://web.archive.org/web/20160313223341/http://www.insanityjam.com/about/) game jam.
 
 ## Installation
 
@@ -28,9 +28,11 @@ console.log("Don't " + words.verbs.secondPerson[0] + " the " + words.nouns[0][1]
 
 ### Specific List
 
+Specific lists are kept in the `lists` directory, and `verbs` is itself a directory.
+
 ```
-var nouns = require('insanity-word-list/nouns');
-var verbs2nd = require('insanity-word-list/verbs/secondPerson');
+var nouns = require('insanity-word-list/lists/nouns');
+var verbs2nd = require('insanity-word-list/lists/verbs/secondPerson');
 
 console.log('No ' nouns[0][1] + ' allowed!');
 
