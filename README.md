@@ -15,7 +15,7 @@ Each piece of the whole list is separated as an object key, and each list is a r
 ### All Lists
 
 ```
-import words from 'insanity-word-list';
+var words = require('insanity-word-list');
 
 console.log('Hello, you ' + words.adjectives[0] + ' ' + words.nouns[0][0] + '!');
 
@@ -29,12 +29,16 @@ console.log("Don't " + words.verbs.secondPerson[0] + " the " + words.nouns[0][1]
 ### Specific List
 
 ```
-import nouns from 'insanity-word-list/nouns';
-import verbs2nd from 'insanity-word-list/verbs/secondPerson';
+var nouns = require('insanity-word-list/nouns');
+var verbs2nd = require('insanity-word-list/verbs/secondPerson');
 
 console.log('No ' nouns[0][1] + ' allowed!');
 
 // output: No aardvarks allowed!
+
+console.log('Why do ' nouns[0][1] + ' always ' + verbs2nd[0] + ' ' + nouns[1][1]) + '?';
+
+// output: Why do aardvarks always accelerate the growth of aborigines?
 ```
 
 ## Structure
