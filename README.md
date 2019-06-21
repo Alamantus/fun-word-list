@@ -1,10 +1,10 @@
-# Insanity Word List
+# Fun Word List
 
-This package is a standalone collection of English words used in the [Game Idea Generator](https://alamantus.gitlab.io/GameIdeaGenerator) that was originally used for the [Insanity Jam](https://web.archive.org/web/20160313223341/http://www.insanityjam.com/about/) game jam.
+This package is a standalone collection of fun and interesting English words used in the [Game Idea Generator](https://alamantus.gitlab.io/GameIdeaGenerator) that was originally used for the [Insanity Jam](https://web.archive.org/web/20160313223341/http://www.insanityjam.com/about/) game jam.
 
 ## Installation
 
-Add the word list to your project using NPM (`npm install insanity-word-list`) or Yarn (`yarn instanity-word-list`).
+Add the word list to your project using NPM (`npm install fun-word-list`) or Yarn (`yarn fun-word-list`).
 
 ## Usage
 
@@ -15,7 +15,7 @@ Each piece of the whole list is separated as an object key, and each list is a r
 ### All Lists
 
 ```
-var words = require('insanity-word-list');
+var words = require('fun-word-list');
 
 console.log('Hello, you ' + words.adjectives[0] + ' ' + words.nouns[0][0] + '!');
 
@@ -31,8 +31,8 @@ console.log("Don't " + words.verbs.secondPerson[0] + " the " + words.nouns[0][1]
 Specific lists are kept in the `lists` directory, and `verbs` is itself a directory.
 
 ```
-var nouns = require('insanity-word-list/lists/nouns');
-var verbs2nd = require('insanity-word-list/lists/verbs/secondPerson');
+var nouns = require('fun-word-list/lists/nouns');
+var verbs2nd = require('fun-word-list/lists/verbs/secondPerson');
 
 console.log('No ' nouns[0][1] + ' allowed!');
 
