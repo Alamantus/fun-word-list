@@ -1,6 +1,6 @@
 {
   "name": "fun-word-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A large collection of fun and interesting words in English.",
   "main": "index.js",
   "scripts": {
