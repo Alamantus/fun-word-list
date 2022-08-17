@@ -71,3 +71,24 @@ var words = {
 ## Plans
 
 I had worked on splitting up these words (specifically descriptors) into positive, negative, and neutral lists. Hopefully I'll be able to come up with something like that pretty soon for this package.
+
+## License
+
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://robbie.antenesse.net">
+    <span property="dct:title">Robbie Antenesse</span></a>
+  has waived all copyright and related or neighboring rights to
+  <a href="https://github.com/Alamantus/fun-word-list">
+    <span property="dct:title">fun-word-list</span></a>.
+This work is published from:
+<span property="vcard:Country" datatype="dct:ISO3166"
+      content="US" about="https://github.com/Alamantus/fun-word-list">
+  United States</span>.
+</p>
